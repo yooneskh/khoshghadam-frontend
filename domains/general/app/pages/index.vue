@@ -31,6 +31,22 @@ useHead({
         <a href="mailto:yoones.khoshghadam@gmail.com" class="text-primary underline font-bold">yoones.khoshghadam@gmail.com</a>
       </p>
 
+      <div class="mt-6 space-x-3">
+        <nuxt-link to="https://github.com/yooneskh" target="_blank">
+          <u-btn
+            icon="i-mdi-github"
+            label="Github"
+          />
+        </nuxt-link>
+        <nuxt-link to="https://twitter.com/yooneskh" target="_blank">
+          <u-btn
+            icon="i-mdi-twitter"
+            label="Twitter"
+            class="primary"
+          />
+        </nuxt-link>
+      </div>
+
     </content-container>
   </main>
 </template>
