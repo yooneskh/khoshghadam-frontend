@@ -4,8 +4,6 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   extends: [
     './domains/general',
-    './domains/authentication',
-    './domains/admin',
     './plugins/unified-app',
   ],
   unifiedComponents: {
@@ -25,5 +23,8 @@ export default defineNuxtConfig({
       'danger': '#EF4444',
       'on-danger': '#FAFAFA',
     },
+  },
+  gtag: {
+    id: 'G-P80YWT2RDF',
   },
 });

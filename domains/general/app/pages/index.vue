@@ -15,19 +15,21 @@ useHead({
 
 <template>
   <main>
-    <content-container class=":uno: flex flex-col items-center justify-center gap-3 py-50">
+    <content-container class="py-12">
 
-      <p>
-        Hello to Unified Components!
+      <h1 class="text-4xl font-bold">
+        Hello! I am Yoones Khoshghadam.
+      </h1>
+
+      <p class="mt-12">
+        I am a Full stack developer. <br />
+        I can make Web, Android, iOS or Desktop applications.
       </p>
-  
-      <nuxt-link to="https://github.com/yooneskh" target="_blank">
-        <u-btn
-          icon="i-mdi-github"
-          label="Go To Github"
-          class="soft primary text-sm"
-        />
-      </nuxt-link>
+
+      <p class="mt-12">
+        Let's get in touch:
+        <a href="mailto:yoones.khoshghadam@gmail.com" class="text-primary underline font-bold">yoones.khoshghadam@gmail.com</a>
+      </p>
 
     </content-container>
   </main>

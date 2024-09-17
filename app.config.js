@@ -1,13 +1,13 @@
 
 
 export default {
-  id: 'uapp',
+  id: 'khoshghadam',
   brand: {
-    title: 'Unified Application',
+    title: 'Khoshghadam',
   },
   http: {
-    baseUrl: 'https://uapp.khoshghadam.com',
-    apiUrl: 'https://uapp.khoshghadam.com/api',
+    baseUrl: 'https://khoshghadam.com',
+    apiUrl: 'https://khoshghadam.com/api',
   },
   locale: {
     default: 'en',
