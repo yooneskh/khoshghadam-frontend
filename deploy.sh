@@ -1,1 +1,1 @@
-bun run build && rsync -avu --delete ./.output/ $zxc:/home/yooneskh/project && ssh $zxc pm2 restart project
+bun run generate && rsync -avu --delete ./.output/public/ $zxc:/home/yooneskh/khoshghadam/frontend
