@@ -24,6 +24,9 @@ export default defineNuxtConfig({
       'on-danger': '#FAFAFA',
     },
   },
+  modules: [
+    'nuxt-gtag',
+  ],
   gtag: {
     id: 'G-P80YWT2RDF',
   },
