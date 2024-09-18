@@ -9,6 +9,10 @@ useHead({
   titleTemplate: t => `${t ? `${t} - ` : ''}${config.brand.title}`,
 });
 
+useSeoMeta({
+  description: 'Full stack developer using Vue, Nuxt, Node and Deno to build Web, Android, iOS and Desktop applications.',
+});
+
 </script>
 
 
