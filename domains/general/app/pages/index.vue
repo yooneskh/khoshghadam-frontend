@@ -51,7 +51,7 @@ useHead({
         Tools i made
       </h2>
 
-      <div class="grid grid-cols-4 mt-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 mt-6">
         <nuxt-link to="https://arepo.khoshghadam.com" target="_blank">
           <u-card class="outline neutral interactive">
             <h3 class="text-xl font-bold text-center">
