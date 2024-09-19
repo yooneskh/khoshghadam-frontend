@@ -10,7 +10,7 @@ useHead({
 });
 
 useSeoMeta({
-  description: 'Full stack developer using Vue, Nuxt, Node and Deno to build Web, Android, iOS and Desktop applications.',
+  'description': 'Full stack developer using Vue, Nuxt, Node and Deno to build Web, Android, iOS and Desktop applications.',
   'og:image': '/favicon.ico',
   'twitter:card': 'summary',
 });
