@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   extends: [
     './domains/general',
     './plugins/unified-app',
+    'nuxt-unified-confetti',
   ],
   unifiedComponents: {
     theme: {

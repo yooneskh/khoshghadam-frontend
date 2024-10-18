@@ -10,6 +10,13 @@ useHead({
   title: '',
 });
 
+
+/* confetti! */
+
+onMounted(() => {
+  confettiOnPageSides(2000);
+});
+
 </script>
 
 
@@ -48,10 +55,11 @@ useHead({
       </div>
 
       <h2 class="mt-12 text-2xl">
-        Tools i made
+        Some things i made
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-4 mt-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-2 mt-6">
+
         <nuxt-link to="https://arepo.khoshghadam.com" target="_blank">
           <u-card class="outline neutral interactive">
             <h3 class="text-xl font-bold text-center">
@@ -62,6 +70,18 @@ useHead({
             </p>
           </u-card>
         </nuxt-link>
+
+        <nuxt-link to="https://rasa.khoshghadam.com" target="_blank">
+          <u-card class="outline neutral interactive">
+            <h3 class="text-xl font-bold text-center">
+              Rasa
+            </h3>
+            <p class="mt-2">
+              Ask questions and see how similar your friends think!
+            </p>
+          </u-card>
+        </nuxt-link>
+
       </div>
 
     </content-container>
